@@ -39,7 +39,7 @@ class child1 extends Component {
         container.selectAll("circle")
             .data(data)
             .join("circle")
-            .attr("cx", fucntion(d){
+            .attr("cx", function(d){
                 return x_scale(d.total_bill);
             })
             .attr("cy", function (d) {
